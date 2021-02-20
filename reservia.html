@@ -31,7 +31,7 @@
 
 
 
-		<div>
+		<div id="searchbar">
 			<form id="nav3" method="post" action="serveur.php">
 				<i id="logomaps" class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
 			   <input type="search" id="input" name="q"aria-label="Search through site content" placeholder="Marseille,France">
@@ -45,23 +45,17 @@
 
 		<div id="button">
 
-			<h2>Filtres</h2>
+			<h2 id="filtres">Filtres</h2>
 
-			<div class="divlogo1">
-				<a id="logo1" href="#"><i id="moneylogo" class="fas fa-money-bill-wave"></i> <span id="économique"> Économique</span></a>
-			</div>
-
-			<div id="divlogo2">
-				<a  id="logo2" href="#"><i id="familylogo" class="fas fa-child"></i> <span id="family">Familial </span> </a>
-			</div>
-
-			<div id="divlogo3">
-				<a id="logo3" href="#"><i id="logocoeur" class="fas fa-heart"></i> <span id="romantique">Romantique </span> </a>
-			</div>
-
-       		<div id="divlogo4">
-       			<a id="logo4" href="#"><i id="dog" class="fas fa-dog"></i> <span id="animaux">Animaux autorisé </span></a>
-       		</div>
+			
+				<a class="logo1" href="#"><i  class="moneylogo fas fa-money-bill-wave"></i> <span class="economique"> Économique</span></a>
+			
+				<a  class="logo1" href="#"><i  class="moneylogo fas fa-child"></i> <span class="economique">Familial </span> </a>
+			
+				<a class="logo1" href="#"><i  class="moneylogo fas fa-heart"></i> <span class="economique">Romantique </span> </a>
+       		
+       			<a class="logo1" href="#"><i  class="moneylogo fas fa-dog"></i> <span class="economique">Animaux autorisé </span></a>
+       		
        		
        	</div>
 
@@ -81,7 +75,6 @@
 			<div class="container1">
 				<h2 id="title1">Hébergements à Marseille</h2>
 				<article id="article1">
-
 					<a href="#" class="item">
 						<img class="img" src="picture/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
 						<div>
@@ -179,14 +172,14 @@
 
 			<aside>
 				<div class="container2">
-					<h2 id="populaires">Les plus populaires </h2>
-					<i id="logoline" class="fas fa-chart-line"></i>
+					<h2 id="populaires">Les plus populaires <i id="logoline" class="fas fa-chart-line"></i></h2>
+					
 					<div class="block1">
 						<a class="link1" href="#"> 
 							<img id="img-aside" src="hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="chambre hotel">
 							<h2 class="h2">Hôtel le soleil du matin</h2>
-							<p>Nuit à partir de 128€</p>
-							<div class="three">
+							<p class="nuit">Nuit à partir de 128€</p>
+							<div class="fontawesome">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
@@ -200,7 +193,7 @@
 							<img id="img-aside" src="hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre hotel">
 							<h2 class="h2">Au coeur de l'eau Chambres d'hôtes</h2>
 							<p>Nuit à partir de 71€</p>
-							<div class="three">
+							<div class="fontawesome">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
@@ -214,7 +207,7 @@
 							<img id="img-aside" src="hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="chambre hotel">
 							<h2 class="h2">Hôtel Tout bleu et Blanc</h2>
 							<p>Nuit à partir de 68€</p>
-							<div class="three">
+							<div class="fontawesome">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
@@ -240,14 +233,57 @@
 
 
 	<section id="section2">
+
 			<h2 id="activityh2">Activités à Marseille</h2>
 			<div id="container3">
-				<div class="item"></div>
-			    <div class="item"></div>
-			    <div class="item"></div>
-			    <div class="item"></div>
-			    <div class="item"></div>
-			    <div class="item"></div>
+
+				<div class="child">
+					<a   href="#">
+						<img class="photoXl" src="activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+						<h2 class="h2photo">Vieux Port</h2>
+					</a>
+				</div>
+
+				<div id="test">
+					
+					<div class="child">
+						<a  href="#">
+							<img class="photoL" src="activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+						<h2 class="h2photo">Fort de Pomègues</h2>
+						</a>
+					</div>
+					<div class="child2">
+						<a  href="#">
+							<img class="photoS" src="activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+							<h2 class="h2photo">îles du Frioul</h2>
+						</a>
+					</div>	
+				</div>
+
+				
+
+					
+				<div class="child" >
+						<a  href="#">
+						<img class="photoXl" src="activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+						<h2 class="h2photo">Parc National des Calanques</h2>
+					</a>
+				</div>
+
+				<div id="test1">
+					<div class="child">
+						<a  href="#">
+							<img class="photoM" src="activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+							<h2 class="h2photo">Fort de Pomègues</h2>
+						</a>
+					</div>
+					<div class="child">
+						<a  href="#">
+							<img class="photoM" src="activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+							<h2 class="h2photo">îles du Frioul</h2>
+						</a>
+					</div>	
+				</div>
 			</div>
 		
 	</section>
