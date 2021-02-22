@@ -13,6 +13,14 @@ a:link
 { 
  text-decoration:none; 
 } 
+#navheader a:hover
+{
+  border-top: 3px solid blue;
+}
+@font-face{
+    font-family: "raleway";
+    src:url("../PROJET 2/Raleway/Raleway-VariableFont_wght.ttf");
+}
 /*toute les parties du header */;
 header
 {
@@ -68,12 +76,10 @@ header
  	font-size: 1.6em;
  	margin-left: 50px;
  	padding-top: 30px;
- 	
  }
  #nav2
  {
  	margin: 0;
- 	font-family: 'Raleway', sans-serif;
  	font-size: 1em;
  	padding-top: 10px;
  	margin-left: 50px;
@@ -86,6 +92,14 @@ header
 	display: flex;
 	flex-direction: row;
 }
+
+h1,h2,p,a
+{
+	font-family: "Raleway", "Sans serif";
+}
+
+
+
 #logomaps
 {
 	border: solid 1px #f2f2f2;
@@ -101,6 +115,10 @@ header
  {
  	border: solid 1px #f2f2f2;
  	height: 50px;
+ 	padding-left: 2%;
+ 	font-size: 1em;
+ 	font-weight: bold;
+ 	color: black;
 
  }
 #rechercher
@@ -125,7 +143,9 @@ header
 {
 	margin: 50px;
 	display: flex;
-	margin-top: 10px;
+	margin-top: 20px;
+	width: 70%;
+	margin-top: 30px;
 }
 #filtres
 {
@@ -137,13 +157,16 @@ header
 	border-radius: 20px;
 	margin-left: 3%;
 	display: flex;
-	width: auto;
 	height: 40px;
 }
 .economique
 {
 	display: flex;
 	align-items: center;
+	font-weight: bold;
+	color: black;
+	padding-left: 15px;
+	padding-right: 10px;
 }
 .moneylogo
 {
@@ -154,6 +177,7 @@ header
 	width: 40px;
 	text-align: center;
 	margin-left: -2px;
+	color: #0065FC;
 }
 
 #font-info
@@ -212,11 +236,13 @@ header
 	
 	margin: 0;
 	margin-left: 10px;
+	color: black;
 }
 .three
 {
 	margin-top: 7px;
 	margin-left: 10px;
+	color: #0065fc;
 
 }
 #title1
@@ -273,6 +299,10 @@ header
  	border: solid 2px orange;
  	padding-left: 50px;
  }
+ .price
+ {
+ 	font-weight: bold;
+ }
 /*toutes les parties de la section 2*/
 #activityh2
 {
@@ -309,9 +339,10 @@ header
 }
 .h2photo
 {
-	margin-left: 10px;
-	margin-top: 0px;
-	font-size: 1.3em;		
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 1.2em;	
+	color: black;	
 }
 .photoXl
 {
