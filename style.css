@@ -15,7 +15,7 @@ a:link
 } 
 #navheader a:hover
 {
-  border-top: 3px solid blue;
+  border-top: 3px solid #0065FC;
 }
 @font-face{
     font-family: "raleway";
@@ -49,6 +49,15 @@ header
 #activité
 {
 	padding-left: 50px;
+}
+#hebergements
+{
+	border-top:solid 3px #0065FC;
+}
+#sinscrire
+{
+	font-weight: bold;
+	color: #0065FC;
 }
 #block
 {
@@ -168,6 +177,7 @@ h1,h2,p,a
 	margin-left: 3%;
 	display: flex;
 	height: 40px;
+	box-shadow: 0 0 3px grey ;
 }
 .economique
 {
@@ -204,7 +214,6 @@ h1,h2,p,a
 .container1
 {
  	background-color: #f2f2f2;
- 	width: 840px;
  	border-radius: 20px 20px 20px 20px;
 	margin-left: 45px;	
 	margin: 50px;
@@ -239,6 +248,7 @@ h1,h2,p,a
 	border : solid 5px white;
 	border-radius: 15px;
 	background-color: white;
+	box-shadow: 0 0 10px grey ;
 }
 .one , .two 
 {
@@ -296,6 +306,8 @@ h1,h2,p,a
 	width: 80%;
 	margin-left: 10%;
 	background-color: white;
+	box-shadow: 0 0 5px grey ;
+	margin-top: 70px;
 }
 .h2
 {
@@ -418,4 +430,8 @@ footer
  .color
  {
  	color: black;
+ }
+
+ @media screen and (max-width: 1450px){
+ 	
  }
