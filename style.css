@@ -309,6 +309,12 @@ h1,h2,p,a
 	box-shadow: 0 0 5px grey ;
 	margin-top: 70px;
 }
+#article2
+{
+	border: solid 10px red;
+	width: 100%;
+}
+
 .h2
 {
 	font-size: 1em;
@@ -433,5 +439,56 @@ footer
  }
 
  @media screen and (max-width: 1450px){
+ 	#section1
+ 	{
+ 		height: 100%;
+ 		width: 100%;
+ 		display: flex;
+ 		flex-direction: column-reverse;
+ 	}
+
+ 	.container1
+ 	{
+ 		height: 100vh;
+ 	}
+
  	
+ 	.container2
+ 	{
+ 		width: 90%;
+ 		margin-left: 50px;
+ 		height: auto;
+ 		display: flex;
+ 		flex-direction: column;
+ 	}
+
+ 	.block1
+ 	{
+ 		margin: 40px;
+ 		min-width: 200px;
+ 		height: 140px;
+ 	}
+ 	#h2
+ 	{
+ 		margin-top: 0px;
+ 	}
+
+ 	#populaires
+ 	{
+ 		padding-top: 0%;
+ 	}
+
+ 	#article2
+ 	{
+ 		display: flex;
+ 	}
+
+ 	.item
+ 	{
+ 		width: 33%;
+ 	}
+ 	.img
+ 	{
+ 		width: 100%;
+ 	}
  }
