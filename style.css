@@ -438,7 +438,7 @@ footer
  	color: black;
  }
 
- @media screen and (max-width: 1450px){
+ @media screen and (max-width: 1430px){
  	#section1
  	{
  		height: 100%;
@@ -449,15 +449,15 @@ footer
 
  	.container1
  	{
- 		height: 100vh;
+ 		height: 1000px;
  	}
 
  	
  	.container2
  	{
  		width: 90%;
+ 		height: 300px;
  		margin-left: 50px;
- 		height: auto;
  		display: flex;
  		flex-direction: column;
  	}
@@ -491,4 +491,48 @@ footer
  	{
  		width: 100%;
  	}
+ 	.container2
+	{
+		height: 800px;
+	}
+
+	#article2
+	{
+		height: 800px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.child,.child2
+	{
+		height:200px;
+		width:319px;
+		margin:20px;
+	}
+	.photoM,.photoXl,.photoS,.photoL
+	{
+		height:120px;
+		width:319px;
+	}
+
+	#container3
+	{
+		border:solid blue 4px;
+		height: 1000px;
+		flex-wrap: wrap;
+	}
+	#section2
+	{
+		height: 1200px;
+
+	}
+	#test1,#test
+	{
+		display: inline-block;
+	}
  }
+
+@media screen and (max-width: 1430px){
+
+	
+}
