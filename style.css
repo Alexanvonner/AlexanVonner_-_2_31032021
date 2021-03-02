@@ -209,7 +209,6 @@ h1,h2,p,a
 /*toutes les parties de la section 1*/
 #section1
  {
- 	height: 850px;
  	display: flex;
  }
 .container1
@@ -232,7 +231,6 @@ h1,h2,p,a
  #article1
  {
  	width: 100%;
- 	height: 80%;
  	display: flex;
  	flex-wrap: wrap;
  	justify-content: space-around;
@@ -290,10 +288,7 @@ h1,h2,p,a
  	font-weight: bold;
  }
 /*toutes les parties du aside*/
-aside
-{
-	margin-left: 10%;
-}
+
 #img-aside
 {
 	width: 140px;
@@ -512,15 +507,68 @@ footer
 
 /*Pour téléphone*/
 @media (max-width:768px){
+	
+	
 
 }
 
 /*tablette*/
 @media (min-width :768px) and (max-width :1024px){
+	#section1
+	{
+		flex-direction: column-reverse;
+	}
+	.container2
+	{
+		margin-left: 6%;
+		width: 90%;
+	}
+
+	#container3
+	{
+		margin-left: 6%;
+	}
+	.item
+	{
+		margin:2%;
+	}
+	.container2
+	{
+		margin-left: 6%;
+		width: 90%;
+	}
+	.container1
+	{
+		max-width: none;
+	}
+	.block1
+	{
+		margin-top: 5%;
+	}
 }
 
 /*Grand écran*/
 @media (min-width : 1025px){
+	#container3
+	{
+		margin-left: 5%;
+	}
+	.container1
+	{
+		min-width: 60%;
+        height: 913px;
+	}
+	#article1
+	{
+		height: 80%;
+	}
+	.container2
+	{
+		min-width: 400px;
+		width: 89%;
+		height: 90%;
+	}
+	
 }
 
 
