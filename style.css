@@ -48,6 +48,7 @@ header
 #activité
 {
 	padding-left: 50px;
+	color: black;
 }
 #hebergements
 {
@@ -173,12 +174,12 @@ h1,h2,p,a
 .logo1
 {
 	border: 2px solid #F2F2F2 ;
-	border-radius: 20px;
+	border-radius: 30px;
 	margin-left: 3%;
 	display: flex;
-	height: 40px;
-	width: 150px;
+	height: 45px;
 	box-shadow: 0 0 3px grey ;
+	margin: 2%;
 }
 .economique
 {
@@ -289,7 +290,7 @@ h1,h2,p,a
  }
 /*toutes les parties du aside*/
 
-#img-aside
+.img-aside
 {
 	width: 140px;
 	height: 140px;
@@ -506,10 +507,92 @@ footer
 
 
 /*Pour téléphone*/
-@media (max-width:768px){
-	
-	
+@media (max-width:767px){
 
+	#article1
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	#nav3
+	{
+		border:solid;
+	}
+	#input
+	{
+		width: 100%;
+	}
+	header
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	#sinscrire
+	{
+		display: none;
+	}
+	#rechercher
+	{
+		display: none;
+	}
+	#logohidden
+	{
+		display: block;
+		color: white;
+	}
+	 #searchbutton
+	 {
+	 	width: 10%;
+	 	min-width: 40px;
+	 }
+	#logoreservia
+	{
+		border:solid;
+		width: 140px;
+	}
+	#section1
+	{
+		flex-direction: column-reverse;
+	}
+	.container2
+	{
+		width: 90%;
+		margin-left: 7%;
+	}
+	.block1
+	{
+		margin-top: 50px;
+	}
+	.container1
+	{
+		margin: 7%;
+		width: 90%;
+	}
+	.item
+	{
+		margin: 2%;
+		width:80%;
+		height: 30%;
+	}
+	.img
+	{
+		width: 100%;
+	}
+	.img-aside
+	{
+		width: 46%;
+	}
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+	.footer1,.footer2,.footer3
+	{
+		margin: 0%;
+		margin-left: 7%;
+	}
 }
 
 /*tablette*/
@@ -540,11 +623,78 @@ footer
 	.container1
 	{
 		max-width: none;
+		margin-left: 6%;
+		width: 90%;
 	}
 	.block1
 	{
 		margin-top: 5%;
 	}
+	.child1,.child2,.child3,.child4,.child5,.child6
+	{
+		width: 200px;
+		height: 200px;
+	}
+	.photoXl
+	{
+		height: 70%;
+	}
+	.child1
+	{
+	 grid-column-start: 1;
+	 grid-column-end: 1;
+	 grid-row-start: 1;
+	 grid-row-end: 1;
+	}
+	.child2
+	{
+	 grid-column-start: 2;
+	 grid-column-end:2;
+	 grid-row-start: 1;
+	 grid-row-end: 1;
+	}
+	.child3
+	{
+	 grid-column-start: 3;
+	 grid-column-end: 3;
+	 grid-row-start: 1;
+	 grid-row-end: 2;
+	 grid-column-start: 3;
+	 grid-column-end: 3;
+	 grid-row-start: 2;
+	 grid-row-end: 2;
+	 margin-top: 0%;
+	}
+	.child4
+	{
+	 grid-column-start: 3;
+	 grid-column-end: 3;
+	 grid-row-start: 1;
+	 grid-row-end: 1;
+	}
+	.child5
+	{
+	grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+	}
+	.child6
+	{
+	 grid-column-start: 2;
+	 grid-column-end: 2;
+	 grid-row-start: 2;
+	 grid-row-end: 2;
+	 margin-top: 0%;
+	}
+
+	#container3
+{
+	display: grid;
+	grid-template-columns :1fr 1fr 1fr;
+    grid-auto-rows: 225px;
+	margin-left: 10%;
+}
 }
 
 /*Grand écran*/
