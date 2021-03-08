@@ -514,10 +514,7 @@ footer
 		display: flex;
 		flex-direction: column;
 	}
-	#nav3
-	{
-		border:solid;
-	}
+	
 	#input
 	{
 		width: 100%;
@@ -548,7 +545,7 @@ footer
 	#logoreservia
 	{
 		border:solid;
-		width: 140px;
+		width: 90px;
 	}
 	#section1
 	{
@@ -556,24 +553,55 @@ footer
 	}
 	.container2
 	{
-		width: 90%;
-		margin-left: 7%;
+		    width: 100%;
+		    border-radius:0px;
+		    height: 900px;
+	}
+	.container1
+	{
+		    margin-left: 0px; 
+    		margin: 0px;
+    		background-color: white;
+	}
+	#afficherplus
+	{
+		font-size: 0.9em;
+        margin-left: 9%;
+	}
+	#activityh2
+	{
+		margin-top: 7%;
+		margin-left: 8%;
 	}
 	.block1
 	{
 		margin-top: 50px;
+		height: 200px;
 	}
-	.container1
+	#block 
 	{
-		margin: 7%;
-		width: 90%;
-	}
+     width:100%;
+     margin-left: 8%;
+    }
+    #nav1
+    {
+    	margin-left: 8%;
+    }
+    #nav2
+    {
+    	margin-left: 8%;
+    }
+    #nav3 
+    {
+        margin-left: 8%;
+   	}
+	
 	.item
 	{
-		margin: 2%;
-		width:80%;
-		height: 30%;
+		width: 80%;
+        margin: 2%;
 	}
+	
 	.img
 	{
 		width: 100%;
@@ -581,17 +609,36 @@ footer
 	.img-aside
 	{
 		width: 46%;
+		height: 200px;
 	}
 	footer
 	{
 		display: flex;
 		flex-direction: column;
 		height: 100%;
+		border-radius: 0px;
 	}
 	.footer1,.footer2,.footer3
 	{
 		margin: 0%;
+		margin-left: 10%;
+	}
+	.photoXl,.photoL,.photoM,.photoS
+	{
+		height: 70%;
+	}
+		
+	.child1,.child2,.child3,.child4,.child5,.child6
+	{
+		width: 85%;
+		height: 200px;
+		margin-top: 5%;
 		margin-left: 7%;
+	}
+	#container3
+	{
+		display: flex;
+		flex-direction: column;
 	}
 }
 
@@ -625,6 +672,7 @@ footer
 		max-width: none;
 		margin-left: 6%;
 		width: 90%;
+		height: 100%;
 	}
 	.block1
 	{
