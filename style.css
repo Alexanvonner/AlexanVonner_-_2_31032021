@@ -110,6 +110,7 @@ header
 	width: auto;
 	display: flex;
 	flex-direction: row;
+	font-weight: normal;
 }
 
 h1,h2,p,a
@@ -154,6 +155,10 @@ h1,h2,p,a
 	border-radius: 0px 15px 15px 0px;
 	border: solid 2px #0065FC ;
 }
+#inscrire
+    {
+    	display: none;
+    }
 #searchbar
 {
 	margin-top: 20px;
@@ -170,7 +175,9 @@ h1,h2,p,a
 #filtres
 {
 	font-size: 1em;
+    margin-top: 3.5%;
 }
+
 .logo1
 {
 	border: 2px solid #F2F2F2 ;
@@ -267,7 +274,7 @@ h1,h2,p,a
 }
 #title1
 {
-	margin-left: 30px;
+	margin-left: 9%;
 	padding-top: 3%;
 }
 .img2
@@ -514,10 +521,7 @@ footer
 		display: flex;
 		flex-direction: column;
 	}
-	#nav3
-	{
-		border:solid;
-	}
+	
 	#input
 	{
 		width: 100%;
@@ -545,10 +549,14 @@ footer
 	 	width: 10%;
 	 	min-width: 40px;
 	 }
+	 #searchbar
+	 {
+	 	margin-right: 10%;
+	 	margin-left: 4%;
+	 }
 	#logoreservia
 	{
-		border:solid;
-		width: 140px;
+		width: 90px;
 	}
 	#section1
 	{
@@ -556,24 +564,56 @@ footer
 	}
 	.container2
 	{
-		width: 90%;
-		margin-left: 7%;
+		    width: 100%;
+		    border-radius:0px;
+		    height: 900px;
+	}
+	.container1
+	{
+		    margin-left: 0px; 
+    		margin: 0px;
+    		background-color: white;
+	}
+	#afficherplus
+	{
+		font-size: 0.9em;
+        margin-left: 9%;
+	}
+	#activityh2
+	{
+		margin-top: 7%;
+		margin-left: 8%;
 	}
 	.block1
 	{
 		margin-top: 50px;
+		height: 200px;
 	}
-	.container1
+	#block 
 	{
-		margin: 7%;
-		width: 90%;
-	}
+      width: 85%;
+     margin-left: 8%;
+     height: auto;
+    }
+    #nav1
+    {
+    	margin-left: 8%;
+    }
+    #nav2
+    {
+    	margin-left: 12%;
+    }
+    #nav3 
+    {
+        margin-left: 8%;
+   	}
+	
 	.item
 	{
-		margin: 2%;
-		width:80%;
-		height: 30%;
+		width: 80%;
+        margin: 2%;
 	}
+	
 	.img
 	{
 		width: 100%;
@@ -581,18 +621,72 @@ footer
 	.img-aside
 	{
 		width: 46%;
+		height: 200px;
 	}
 	footer
 	{
 		display: flex;
 		flex-direction: column;
 		height: 100%;
+		border-radius: 0px;
 	}
 	.footer1,.footer2,.footer3
 	{
 		margin: 0%;
+		margin-left: 10%;
+	}
+	.photoXl,.photoL,.photoM,.photoS
+	{
+		height: 70%;
+	}
+		
+	.child1,.child2,.child3,.child4,.child5,.child6
+	{
+		width: 85%;
+		height: 200px;
+		margin-top: 5%;
 		margin-left: 7%;
 	}
+	#container3
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	#navheader
+	{
+		width: 100%;
+	}
+	#hebergements
+	{
+		padding-left: 15%;
+		border-top: none;
+	}
+	#navheader a:hover
+    {
+      border-bottom: 3px solid #0065FC;
+    }
+    #filtres
+    {
+    font-size: 1.4em;
+    margin-top: 3.5%;
+    width: 100%;
+    margin-left: 5%;
+    }
+    #barrenav
+    {
+    	height: 100%;
+    }
+    #button
+    {
+    	 margin:9%;
+    }
+    #inscrire
+    {
+    	display: block;
+    	width: 100px;
+    	margin-left: 80%;
+    	margin-top: -30px;;
+    }
 }
 
 /*tablette*/
@@ -625,6 +719,7 @@ footer
 		max-width: none;
 		margin-left: 6%;
 		width: 90%;
+		height: 100%;
 	}
 	.block1
 	{
