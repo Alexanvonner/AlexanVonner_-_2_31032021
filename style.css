@@ -2,6 +2,10 @@ body
 {
 	margin: 0;
 }
+placeholder
+{
+	color: black
+}
 li
 {
 	list-style: none;
@@ -16,9 +20,13 @@ a:link
 {
   border-top: 3px solid #0065FC;
 }
+input::placeholder
+{
+	color: black;
+}
 @font-face{
     font-family: "raleway";
-    src:url("../PROJET 2/Raleway/Raleway-VariableFont_wght.ttf");
+    src:url("Raleway/Raleway-VariableFont_wght.ttf");
 }
 /*toute les parties du header */;
 header
@@ -132,7 +140,7 @@ h1,h2,p,a
  {
  	border: solid 1px #f2f2f2;
  	height: 50px;
- 	padding-left: 2%;
+ 	padding-left: 8%;
  	font-size: 1em;
  	font-weight: bold;
  	color: black;
@@ -215,6 +223,10 @@ h1,h2,p,a
 	font-size: 1em;
 	margin-left: 50px;
 }
+.starcolor
+{
+	color: #D6D8D9;
+}
 /*toutes les parties de la section 1*/
 #section1
  {
@@ -272,6 +284,7 @@ h1,h2,p,a
 	margin-top: 7px;
 	margin-left: 10px;
 	color: #0065fc;
+	display: flex;
 
 }
 #title1
@@ -355,6 +368,7 @@ h1,h2,p,a
  .fontawesome
  {
  	color: #0065fc;
+ 	display: flex;
  }
 /*toutes les parties de la section 2*/
 #activityh2
@@ -475,7 +489,7 @@ h1,h2,p,a
 .photoM
 {
 	width:100%;
-	height: 80%;
+	height: 68%;
 	object-fit: cover;
 	border-radius: 20px 20px 0px 0px;
 }
@@ -491,7 +505,7 @@ footer
 .footer1, .footer2 , .footer3
  {
  	margin:130px;
- 	margin-left: 50px;
+ 	margin-left: 3%;
  	margin-top: 20px;
  }
  .color
@@ -571,6 +585,7 @@ footer
 	#activityh2
 	{
 		margin-top: 7%;
+		margin-left: 8%;
 	}
 	.block1
 	{
@@ -642,23 +657,29 @@ footer
 	#navheader
 	{
 		width: 100%;
+
 	}
 	#hebergements
 	{
 		padding-left: 15%;
 		border-top: none;
+		border-bottom: 3px solid #0065FC
+	}
+	#activité
+	{
+		border-bottom: 3px solid #F2F2F2;
 	}
 	#navheader a:hover
     {
-      border-bottom: 3px solid #0065FC;
-      border-top: none;
+    	border-bottom: 3px solid #0065FC;
+        border-top: none;
     }
     #filtres
     {
-    font-size: 1.4em;
-    margin-top: 3.5%;
-    width: 100%;
-    margin-left: 5%;
+    	font-size: 1.4em;
+    	margin-top: 3.5%;
+    	width: 100%;
+    	margin-left: 5%;
     }
     #barrenav
     {
@@ -676,6 +697,10 @@ footer
     	margin-top: -30px;
     	font-weight: bold;
         color: #0065FC;
+    }
+    #title1
+    {
+    	margin-left: 9%;
     }
 }
 /*tablette*/
@@ -800,7 +825,7 @@ footer
 	#container3
 	{
 		margin-left: 3%;
-		width: 100%;
+		width: 97%;
 	}
 	.container1
 	{
@@ -877,7 +902,13 @@ footer
        margin-left: 5%;
     }
 }
+@media (min-width: 2000px){
+	.img
+	{
+		height: 200px;
+	}
 
+}
 
 
 
